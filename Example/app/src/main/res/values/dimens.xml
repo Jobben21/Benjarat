@@ -1,0 +1,37 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <dimen name="errorsize">20dp</dimen>
+    <dimen name="errorfont">16sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+    <dimen name="width">130dp</dimen>
+    <dimen name="margintop_menu2">10dp</dimen>
+
+    <dimen name="left_m3">5dp</dimen>
+    <dimen name="progressbar_height">10dp</dimen>
+    <dimen name="result_front">16sp</dimen>
+    <dimen name="info_front">14sp</dimen>
+
+    <dimen name="five">5dp</dimen>
+    <dimen name="ten">10dp</dimen>
+    <dimen name="fiveteen">15dp</dimen>
+    <dimen name="twenty">20dp</dimen>
+    <dimen name="twentyfive">25dp</dimen>
+    <dimen name="thirtyy">30dp</dimen>
+    <dimen name="fourtyfive">45dp</dimen>
+
+    <dimen name="f_fourteen">14sp</dimen>
+    <dimen name="f_sixteen">16sp</dimen>
+    <dimen name="f_eighteen">18sp</dimen>
+    <dimen name="f_twenty">20sp</dimen>
+    <dimen name="f_twentytwo">22sp</dimen>
+    <dimen name="f_fourty">40sp</dimen>
+    <dimen name="f_thfive">35sp</dimen>
+    <dimen name="f_thirty">30sp</dimen>
+
+</resources>

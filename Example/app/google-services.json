@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "14030551696",
+    "firebase_url": "https://bloodtest-2283b.firebaseio.com",
+    "project_id": "bloodtest-2283b",
+    "storage_bucket": "bloodtest-2283b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14030551696:android:04332e504292dee2",
+        "android_client_info": {
+          "package_name": "com.example.ben.example"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14030551696-3nef0kvfmm120o3q9ojsh1flfkbcghcm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0PPKoMRPrrnRMc_9ejCdh7sGIpXBnt3g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

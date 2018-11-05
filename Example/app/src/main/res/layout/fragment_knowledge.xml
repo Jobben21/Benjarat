@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:paddingBottom="55dp"
+    tools:context=".Menu2.KnowledgeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/background_light"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="202dp"
+                        android:background="#ffffff"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView"
+                                style="@style/font_rugularbold"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="@string/bloodtest"
+                                android:textSize="24sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textView14"
+                                style="@style/font_rugular"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="@string/blood"
+                                android:textSize="12sp" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/gray_btn_bg_color" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/imageView9"
+                                android:layout_width="143dp"
+                                android:layout_height="61dp"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="20dp"
+                                android:layout_weight="1"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/nurse" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="20dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textView4"
+                                    style="@style/font_rugularbold"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/bloodtest2"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/textView3"
+                                    style="@style/font_rugular"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/bloodtest3" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/gray_btn_bg_color" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/recycleview_kn"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp"
+                            android:paddingLeft="15dp"
+                            android:paddingTop="10dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/cardview_light_background"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/gray_btn_bg_color" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <android.support.v7.widget.CardView
+                                android:id="@+id/CL1"
+                                android:layout_width="120dp"
+                                android:layout_height="156dp"
+                                android:clickable="false">
+
+                                <LinearLayout
+                                    style="@style/MENU2_layout"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:id="@+id/imageView13"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/straw" />
+
+                                    <TextView
+                                        android:id="@+id/textView10"
+                                        style="@style/MENU2"
+                                        android:layout_width="match_parent"
+                                        android:text="@string/Sugar" />
+                                </LinearLayout>
+                            </android.support.v7.widget.CardView>
+
+                            <android.support.v7.widget.CardView
+                                android:id="@+id/CL2"
+                                android:layout_width="115dp"
+                                android:layout_height="match_parent"
+                                android:clickable="false">
+
+                                <LinearLayout
+                                    style="@style/MENU2_layout"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:id="@+id/imageView14"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/veet" />
+
+                                    <TextView
+                                        android:id="@+id/textView12"
+                                        style="@style/MENU2"
+                                        android:layout_width="match_parent"
+                                        android:text="@string/Sodium" />
+                                </LinearLayout>
+                            </android.support.v7.widget.CardView>
+
+                            <android.support.v7.widget.CardView
+                                android:id="@+id/CL3"
+                                android:layout_width="120dp"
+                                android:layout_height="match_parent"
+                                android:clickable="false">
+
+                                <LinearLayout
+                                    style="@style/MENU2_layout"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:id="@+id/imageView15"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/carrot" />
+
+                                    <TextView
+                                        android:id="@+id/textView13"
+                                        style="@style/MENU2"
+                                        android:layout_width="match_parent"
+                                        android:text="@string/Potassiumn" />
+                                </LinearLayout>
+                            </android.support.v7.widget.CardView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <android.support.v7.widget.CardView
+                                android:id="@+id/CL4"
+                                android:layout_width="120dp"
+                                android:layout_height="156dp"
+                                android:clickable="false">
+
+                                <LinearLayout
+                                    style="@style/MENU2_layout"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:id="@+id/imageView12"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/tomato" />
+
+                                    <TextView
+                                        android:id="@+id/textView7"
+                                        style="@style/MENU2"
+                                        android:layout_width="match_parent"
+                                        android:text="@string/cholesteral" />
+                                </LinearLayout>
+
+                            </android.support.v7.widget.CardView>
+
+                            <android.support.v7.widget.CardView
+                                android:id="@+id/CL5"
+                                android:layout_width="115dp"
+                                android:layout_height="156dp"
+                                android:clickable="false"
+                                android:padding="10dp">
+
+                                <LinearLayout
+                                    style="@style/MENU2_layout"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:id="@+id/imageView10"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/apple" />
+
+                                    <TextView
+                                        android:id="@+id/textView5"
+                                        style="@style/MENU2"
+                                        android:layout_width="match_parent"
+                                        android:text="@string/two" />
+                                </LinearLayout>
+
+                            </android.support.v7.widget.CardView>
+
+                            <android.support.v7.widget.CardView
+                                android:id="@+id/CL6"
+                                android:layout_width="120dp"
+                                android:layout_height="156dp"
+                                android:clickable="false">
+
+                                <LinearLayout
+                                    style="@style/MENU2_layout"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:id="@+id/imageView11"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/lemon" />
+
+                                    <TextView
+                                        android:id="@+id/textView6"
+                                        style="@style/MENU2"
+                                        android:layout_width="match_parent"
+                                        android:text="@string/Trigryceride" />
+                                </LinearLayout>
+                            </android.support.v7.widget.CardView>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

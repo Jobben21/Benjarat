@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3299C6</color>
+    <color name="white">#ffffff</color>
+
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="blue">#3299C6</color>
+    <color name="gray_btn_bg_color">#e0ebeb</color>
+
+    <color name="blood_primary">#85adad</color>
+    <color name="colorButtonNavigation">#3299C6</color>
+
+    <color name="BG">#ff9d88</color>
+    <color name="gray">#857b79</color>
+    <color name="BGnavigation">#e77963</color>
+    <color name="black">#0f0f0f</color>
+
+</resources>

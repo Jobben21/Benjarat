@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Blood Test</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Information</string>
+    <string name="title_notifications">Profile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="List_bl">List of blood test</string>
+
+    <string name="error_input">*please input blood test value</string>
+    <string name="title_activity_mainn">MainnActivity</string>
+
+
+    <string name="Calendar">calendar</string>
+    <string name="Sugar">Glucose</string>
+    <string name="Sodium">Sodium</string>
+    <string name="Potassiumn">Potassium</string>
+    <string name="cholesteral">Cholesteral</string>
+    <string name="ldl">LDL</string>
+    <string name="hdl">HDL</string>
+    <string name="two">ldl hdl</string>
+    <string name="Trigryceride">Trigryceride</string>
+    <string name="add">Add</string>
+    <string name="cancel">Delete</string>
+    <string name="title_activity_add">AddActivity</string>
+
+    <string name="low">Low Blood :</string>
+    <string name="high">High Blood :</string>
+    <string name="bloodtest">Information</string>
+    <string name="blood">Blood</string>
+    <string name="bloodtest2">Blood Test</string>
+    <string name="bloodtest3">A blood test is a laboratory analysis performed on a blood sample.</string>
+    <string name="bloodtest4">Levels</string>
+    <string name="bloodtest5">Levels :   </string>
+    <string name="title_activity_result_blood">ResultBloodActivity</string>
+    <string name="bloodsodium">Blood Sodium Levels</string>
+    <string name="bloodpotassium">Blood Potassium Levels</string>
+    <string name="bloodcholesterol">Blood Cholesterol Levels</string>
+    <string name="bloodldl">Blood Ldl Levels</string>
+    <string name="bloodhdl">Blood Hdl Levels</string>
+    <string name="bloodtriglyceride">Blood Triglyceride Levels</string>
+    <string name="title_activity_explain3">Explain3Activity</string>
+
+
+    <string name="abnormal">Below standard</string>
+    <string name="normal">Standard</string>
+    <string name="abnormal2">Over standard</string>
+    <string name="more">More information</string>
+    <string name="title_activity_list_knowledge">ListKnowledgeActivity</string>
+
+    <string name="Dialog">Please input blood test at lease 1 </string>
+    <string name="Dialog2">Are you sure you want to exit?</string>
+
+    <string name="dialog">Blood Test</string>
+
+    <string name="profile">The blood test find the average.</string>
+    <string name="profile2">Average</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_register_in">Create Account</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_choice">ChoiceActivity</string>
+
+    <string name="register_name">Name</string>
+    <string name="register_lname">Lastname</string>
+    <string name="register_confirm">Confirm Password</string>
+    <string name="register">Register</string>
+</resources>

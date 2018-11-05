@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context=".Menu1.BloodsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            style="@style/font_rugularbold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:elevation="4dp"
+                            android:text="Blood Test"
+                            android:textAlignment="center"
+                            android:textSize="24sp"
+                            android:textStyle="normal|bold" />
+
+                        <TextView
+                            android:id="@+id/textView9"
+                            style="@style/font_rugular"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:elevation="0dp"
+                            android:text="Input Blood Test From Hospital"
+                            android:textAlignment="center"
+                            android:textSize="12sp" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@color/gray_btn_bg_color" />
+                    </LinearLayout>
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="13dp"
+                                    android:orientation="vertical">
+
+                                    <LinearLayout
+                                        style="@style/B_menu_M1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:orientation="horizontal">
+
+                                        <ImageView
+                                            android:id="@+id/imageView8"
+                                            android:layout_width="33dp"
+                                            android:layout_height="32dp"
+                                            app:srcCompat="@drawable/calendar" />
+
+                                        <EditText
+                                            android:id="@+id/e_date"
+                                            android:layout_width="203dp"
+                                            android:layout_height="43dp"
+                                            android:layout_marginLeft="10dp"
+                                            android:focusable="false"
+                                            android:hint="Date 12/08/2018"
+                                            android:inputType="date" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        style="@style/B_menu_M1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="horizontal">
+
+                                        <ImageView
+                                            android:id="@+id/imageView"
+                                            android:layout_width="33dp"
+                                            android:layout_height="32dp"
+                                            android:layout_marginTop="10dp"
+                                            android:scaleType="fitXY"
+                                            app:srcCompat="@drawable/cherry" />
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:orientation="vertical">
+
+                                            <android.support.design.widget.TextInputLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+
+
+                                                <EditText
+                                                    android:id="@+id/e_sugar"
+                                                    android:layout_width="203dp"
+                                                    android:layout_height="43dp"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:autoText="false"
+                                                    android:hint="Glucose 80 "
+                                                    android:inputType="number"
+                                                    android:textSize="16sp" />
+
+                                                <TextView
+                                                    android:id="@+id/error1"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginLeft="@dimen/errorsize"
+                                                    android:text="@string/error_input"
+                                                    android:textColor="@color/blood_primary"
+                                                    android:textSize="14sp"
+                                                    android:visibility="gone" />
+
+
+                                            </android.support.design.widget.TextInputLayout>
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        style="@style/B_menu_M1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="horizontal">
+
+                                        <ImageView
+                                            android:id="@+id/imageView2"
+                                            android:layout_width="33dp"
+                                            android:layout_height="32dp"
+                                            android:layout_marginTop="20dp"
+                                            app:srcCompat="@drawable/tomato" />
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="vertical">
+
+                                            <android.support.design.widget.TextInputLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_marginTop="10dp"
+                                                android:orientation="vertical">
+
+
+                                                <EditText
+                                                    android:id="@+id/e_sodium"
+                                                    android:layout_width="203dp"
+                                                    android:layout_height="43dp"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:hint="Sodium 125"
+                                                    android:inputType="number"
+                                                    android:textSize="16sp" />
+
+                                                <TextView
+                                                    android:id="@+id/error2"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginLeft="@dimen/errorsize"
+                                                    android:layout_weight="1"
+                                                    android:text="@string/error_input"
+                                                    android:textColor="@color/blood_primary"
+                                                    android:textSize="14sp"
+                                                    android:visibility="gone" />
+                                            </android.support.design.widget.TextInputLayout>
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        style="@style/B_menu_M1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="horizontal">
+
+                                        <ImageView
+                                            android:id="@+id/imageView3"
+                                            android:layout_width="33dp"
+                                            android:layout_height="32dp"
+                                            android:layout_marginTop="20dp"
+                                            app:srcCompat="@drawable/apple" />
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="vertical">
+
+                                            <android.support.design.widget.TextInputLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_marginTop="10dp"
+                                                android:orientation="vertical">
+
+
+                                                <EditText
+                                                    android:id="@+id/e_potass"
+                                                    android:layout_width="203dp"
+                                                    android:layout_height="43dp"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:hint="Potassium 3.5"
+                                                    android:inputType="numberDecimal"
+                                                    android:textSize="16sp" />
+
+                                                <TextView
+                                                    android:id="@+id/error3"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginLeft="@dimen/errorsize"
+                                                    android:layout_weight="1"
+                                                    android:text="@string/error_input"
+                                                    android:textColor="@color/blood_primary"
+                                                    android:textSize="14sp"
+                                                    android:visibility="gone" />
+
+                                            </android.support.design.widget.TextInputLayout>
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        style="@style/B_menu_M1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="horizontal">
+
+                                        <ImageView
+                                            android:id="@+id/imageView4"
+                                            android:layout_width="33dp"
+                                            android:layout_height="32dp"
+                                            android:layout_marginTop="20dp"
+                                            app:srcCompat="@drawable/straw" />
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="vertical">
+
+                                            <android.support.design.widget.TextInputLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="10dp"
+                                                android:orientation="vertical">
+
+
+                                                <EditText
+                                                    android:id="@+id/e_chol"
+                                                    android:layout_width="203dp"
+                                                    android:layout_height="43dp"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:hint="Choresteral 40"
+                                                    android:inputType="number"
+                                                    android:textSize="16sp" />
+
+                                                <TextView
+                                                    android:id="@+id/error4"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginLeft="@dimen/errorsize"
+                                                    android:layout_weight="1"
+                                                    android:text="@string/error_input"
+                                                    android:textColor="@color/blood_primary"
+                                                    android:textSize="14sp"
+                                                    android:visibility="gone" />
+
+                                            </android.support.design.widget.TextInputLayout>
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        style="@style/B_menu_M1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="horizontal">
+
+                                        <ImageView
+                                            android:id="@+id/imageView5"
+                                            android:layout_width="33dp"
+                                            android:layout_height="32dp"
+                                            android:layout_marginTop="@dimen/twentyfive"
+                                            app:srcCompat="@drawable/veet" />
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:orientation="vertical">
+
+                                            <android.support.design.widget.TextInputLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_marginTop="10dp"
+                                                android:orientation="vertical">
+
+
+                                                <EditText
+                                                    android:id="@+id/e_ldl"
+                                                    android:layout_width="203dp"
+                                                    android:layout_height="43dp"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:hint="LDL 100"
+                                                    android:inputType="number"
+                                                    android:textSize="16sp" />
+
+                                                <TextView
+                                                    android:id="@+id/error5"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginLeft="@dimen/errorsize"
+                                                    android:layout_weight="1"
+                                                    android:text="@string/error_input"
+                                                    android:textColor="@color/blood_primary"
+                                                    android:textSize="14sp"
+                                                    android:visibility="gone" />
+                                            </android.support.design.widget.TextInputLayout>
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        style="@style/B_menu_M1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="horizontal">
+
+                                        <ImageView
+                                            android:id="@+id/imageView7"
+                                            android:layout_width="33dp"
+                                            android:layout_height="32dp"
+                                            android:layout_marginTop="@dimen/twentyfive"
+                                            app:srcCompat="@drawable/carrot" />
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:orientation="vertical">
+
+                                            <android.support.design.widget.TextInputLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="10dp"
+                                                android:orientation="vertical">
+
+
+                                                <EditText
+                                                    android:id="@+id/e_hdl"
+                                                    android:layout_width="203dp"
+                                                    android:layout_height="43dp"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:hint=" HDL 35"
+                                                    android:inputType="number"
+                                                    android:textSize="16sp" />
+
+                                                <TextView
+                                                    android:id="@+id/error6"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginLeft="@dimen/errorsize"
+                                                    android:layout_weight="1"
+                                                    android:text="@string/error_input"
+                                                    android:textColor="@color/blood_primary"
+                                                    android:textSize="14sp"
+                                                    android:visibility="gone" />
+
+                                            </android.support.design.widget.TextInputLayout>
+
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        style="@style/B_menu_M1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="horizontal">
+
+                                        <ImageView
+                                            android:id="@+id/imageView6"
+                                            android:layout_width="33dp"
+                                            android:layout_height="32dp"
+                                            android:layout_marginTop="15dp"
+                                            app:srcCompat="@drawable/lemon" />
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:orientation="vertical">
+
+                                            <android.support.design.widget.TextInputLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:orientation="vertical">
+
+
+                                                <EditText
+                                                    android:id="@+id/e_tri"
+                                                    android:layout_width="203dp"
+                                                    android:layout_height="43dp"
+                                                    android:layout_marginLeft="10dp"
+                                                    android:hint="Trigriseride  150"
+                                                    android:inputType="number"
+                                                    android:textSize="16sp" />
+
+                                                <TextView
+                                                    android:id="@+id/error7"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginLeft="@dimen/errorsize"
+                                                    android:layout_weight="1"
+                                                    android:text="@string/error_input"
+                                                    android:textColor="@color/blood_primary"
+                                                    android:textSize="14sp"
+                                                    android:visibility="gone" />
+
+                                            </android.support.design.widget.TextInputLayout>
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="10dp"
+                                    android:gravity="bottom"
+                                    android:orientation="vertical">
+
+                                    <Button
+                                        android:id="@+id/confirmb"
+                                        android:layout_width="246dp"
+                                        android:layout_height="38dp"
+                                        android:layout_marginBottom="20dp"
+                                        android:layout_marginTop="10dp"
+                                        android:background="@drawable/mybutton"
+                                        android:fontFamily="@font/opensansbold"
+                                        android:text="Confirm"
+                                        android:textSize="12sp" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </ScrollView>
+
+                </LinearLayout>
+
+                <android.support.design.widget.BottomNavigationView
+
+                    android:id="@+id/bottonview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true"
+                    app:itemBackground="@color/colorButtonNavigation"
+                    app:itemTextColor="@drawable/nav_button"
+                    app:menu="@menu/navigation">
+
+                </android.support.design.widget.BottomNavigationView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

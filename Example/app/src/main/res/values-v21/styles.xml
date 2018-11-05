@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MySeekBar" parent="Widget.AppCompat.SeekBar">
+        <item name="android:progressBackgroundTint">#f4511e</item>
+        <item name="android:progressTint">#388e3c</item>
+        <item name="android:colorControlActivated">#c51162</item>
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.NoActionBar">
+
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="android:colorControlHighlight">@color/BGnavigation</item>
+        <item name="android:textColorSecondary">@color/black</item>
+
+    </style>
+</resources>

@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu3.ProfileBdFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/background_light"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#ffffff"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginTop="10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView"
+                                style="@style/font_rugularbold"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="@string/title_notifications"
+                                android:textSize="24sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textView14"
+                                style="@style/font_rugular"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="@string/List_bl"
+                                android:textSize="12sp" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/gray_btn_bg_color" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+
+                            <ImageView
+                                android:id="@+id/imageView9"
+                                android:layout_width="143dp"
+                                android:layout_height="61dp"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="20dp"
+                                android:layout_weight="1"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/warning" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="20dp"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textView4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/bloodtest2"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/textView3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/bloodtest3" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/cardview_light_background"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:visibility="visible">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:visibility="visible">
+
+                            <LinearLayout
+                                style="@style/itemlist"
+                                android:layout_width="130dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/cardview"
+                                android:clickable="false"
+                                android:focusableInTouchMode="false"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:id="@+id/click"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="10dp"
+                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                    android:foreground="?attr/selectableItemBackgroundBorderless"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:id="@+id/know_image"
+                                        style="@style/image_itemlist"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:foreground="?attr/selectableItemBackground"
+                                        android:src="@drawable/cherry" />
+
+                                    <TextView
+                                        android:id="@+id/b1"
+                                        style="@style/MENU2"
+                                        android:layout_width="match_parent"
+                                        android:foregroundGravity="center"
+                                        android:gravity="center"
+                                        android:text="@string/Sugar" />
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                style="@style/itemlist"
+                                android:layout_width="130dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/cardview"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:id="@+id/click2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                    android:clickable="true"
+                                    android:foreground="?attr/selectableItemBackgroundBorderless"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        style="@style/image_itemlist"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/apple" />
+
+                                    <TextView
+                                        style="@style/MENU2"
+                                        android:layout_width="match_parent"
+                                        android:foregroundGravity="center"
+                                        android:gravity="center"
+                                        android:text="@string/Sodium" />
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                style="@style/itemlist"
+                                android:layout_width="130dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/cardview"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:id="@+id/click3"
+                                    style="@style/itemlist"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginRight="10dp"
+                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                    android:clickable="true"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        style="@style/image_itemlist"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/tomato" />
+
+                                    <TextView
+                                        style="@style/MENU2"
+                                        android:layout_width="match_parent"
+                                        android:foregroundGravity="center"
+                                        android:gravity="center"
+                                        android:text="@string/Potassiumn" />
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                style="@style/itemlist"
+                                android:layout_width="130dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/cardview"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:id="@+id/click4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:animateLayoutChanges="false"
+                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                    android:clickable="true"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        style="@style/image_itemlist"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/straw" />
+
+                                    <TextView
+                                        style="@style/MENU2"
+                                        android:layout_width="match_parent"
+                                        android:foregroundGravity="center"
+                                        android:gravity="center"
+                                        android:text="@string/cholesteral" />
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                style="@style/itemlist"
+                                android:layout_width="130dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/cardview"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:id="@+id/click5"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginRight="10dp"
+                                    android:animateLayoutChanges="true"
+                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                    android:clickable="true"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        style="@style/image_itemlist"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/veet" />
+
+                                    <TextView
+                                        style="@style/MENU2"
+                                        android:layout_width="match_parent"
+                                        android:foregroundGravity="center"
+                                        android:gravity="center"
+                                        android:text="@string/ldl" />
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                style="@style/itemlist"
+                                android:layout_width="130dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/cardview"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:id="@+id/click6"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:animateLayoutChanges="true"
+                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                    android:clickable="true"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        style="@style/image_itemlist"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/lemon" />
+
+                                    <TextView
+                                        style="@style/MENU2"
+                                        android:layout_width="match_parent"
+                                        android:foregroundGravity="center"
+                                        android:gravity="center"
+                                        android:text="@string/hdl" />
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                style="@style/itemlist"
+                                android:layout_width="130dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="15dp"
+                                android:background="@drawable/cardview"
+                                android:gravity="center"
+                                android:orientation="horizontal"
+                                android:visibility="visible">
+
+                                <LinearLayout
+                                    android:id="@+id/click7"
+                                    android:layout_width="130dp"
+                                    android:layout_height="match_parent"
+                                    android:animateLayoutChanges="true"
+                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                    android:clickable="true"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        style="@style/image_itemlist"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/carrot" />
+
+                                    <TextView
+                                        style="@style/MENU2"
+                                        android:layout_width="match_parent"
+                                        android:foregroundGravity="center"
+                                        android:gravity="center"
+                                        android:text="@string/Trigryceride" />
+
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
